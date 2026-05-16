@@ -4,10 +4,12 @@
         <field id="movies" type="node" />
     </interface>
     <children>
-        <LayoutGroup id="mainGroup" layoutDirection="vertical">
-            <Label text="TMDB Movie Browser" fontSize="48" color="0xFFFFFFFF" />
-            <MovieGrid id="movieGrid" />
-        </LayoutGroup>
+        <Rectangle id="backgroundRect" color="0x2d2d2dff" width="1920" height="1080">
+            <LayoutGroup id="mainGroup" layoutDirection="vertical" itemSpacings="[40]">
+                <Label id="titleLabel" text="TMDB Movie Browser" fontSize="48" color="0xFFFFFFFF" />
+                <MovieGrid id="movieGrid" />
+            </LayoutGroup>
+        </Rectangle>
     </children>
     <script type="text/brightscript" uri="pkg:/source/scenes/MainScene.brs" />
 </component>

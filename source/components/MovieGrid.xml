@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component name="MovieGrid" extends="Group">
+    <interface>
+        <field id="content" type="node" />
+    </interface>
+    <children>
+        <PosterGrid id="grid">
+            <LayoutGroup layoutDirection="vertical" itemSpacings="[20]">
+                <Label text="Popular Movies" fontSize="36" color="0xFFFFFFFF" />
+            </LayoutGroup>
+        </PosterGrid>
+    </children>
+    <script type="text/brightscript" uri="pkg:/source/components/MovieGrid.brs" />
+</component>

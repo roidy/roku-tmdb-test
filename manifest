@@ -8,3 +8,6 @@ background_color=#2d2d2d
 splash_screen_hd=pkg:/images/splash_hd.png
 splash_screen_sd=pkg:/images/splash_sd.png
 screensaver_private=1
+roku_ads_plugin=false
+sgversion=3
+scene_graph_debugger_enabled=1
